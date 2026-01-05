@@ -1,3 +1,6 @@
+// NOTE: This component intentionally contains no data access logic.
+// Data retrieval must occur via services and be injected or composed externally.
+
 import * as React from 'react';
 import { IBaseConfig } from '../models/IBaseConfig';
 import { LoadingState } from './LoadingState';
@@ -38,3 +41,4 @@ export const BaseWebPartComponent: React.FC<IBaseWebPartProps> = ({ config }) =>
     </div>
   );
 };
+
