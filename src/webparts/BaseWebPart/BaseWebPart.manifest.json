@@ -1,1 +1,28 @@
-
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx/client-side-web-part-manifest.schema.json",
+  "id": "00000000-0000-0000-0000-000000000000",
+  "alias": "BaseWebPart",
+  "componentType": "WebPart",
+  "version": "0.1.0",
+  "manifestVersion": 2,
+  "requiresCustomScript": false,
+  "supportedHosts": [
+    "SharePointWebPart"
+  ],
+  "supportsThemeVariants": true,
+  "supportsFullBleed": false,
+  "preconfiguredEntries": [
+    {
+      "title": {
+        "default": "Base Web Part"
+      },
+      "description": {
+        "default": "Canonical SPFx enterprise web part skeleton."
+      },
+      "officeFabricIconFontName": "Page",
+      "properties": {
+        "enabled": true
+      }
+    }
+  ]
+}
